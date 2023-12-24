@@ -1,0 +1,3 @@
+# asterisk_conf
+
+ARCHIVOS DE CONFIGURACION ASTERISK
