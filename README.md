@@ -26,6 +26,20 @@ Esta es una imagen docker preparada con la instalacion de Asterisk 18 en ubuntu 
 
 # Descargar archivos de configuaricion  y sonidos de asterisk:
 
+# Conectarse a la consola bash del contenedor asterisk:
+
+<pre><code class="language-console">$ docker exec -it PBX /usr/sbin/asterisk</code></pre>
+
+# Iniciar el sevidor asterisk:
+
+<pre><code class="language-console">$ service asterisk start</code></pre>
+
+# Acceder a la consola asterisk:
+
+<pre><code class="language-console">$ docker exec -it PBX /usr/sbin/asterisk -r</code></pre>
+
+# Descargar archivos de configuaricion  y sonidos de asterisk:
+
 <a href="https://github.com/devnsm/asterisk_data.git" target="_blank">https://github.com/devnsm/asterisk_data.git</a>
 
 
