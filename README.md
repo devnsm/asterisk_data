@@ -24,8 +24,6 @@ Esta es una imagen docker preparada con la instalacion de Asterisk 18 en ubuntu 
 
 * /home/nsmdeveloper/Documents/learning/docker/vol_asterisk_sounds => por el dictorio que crees en tu pc para los archivos  de sonidos de asterisk.
 
-# Descargar archivos de configuaricion  y sonidos de asterisk:
-
 # Conectarse a la consola bash del contenedor asterisk:
 
 <pre><code class="language-console">$ docker exec -it PBX /usr/sbin/asterisk</code></pre>
