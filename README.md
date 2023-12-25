@@ -36,9 +36,9 @@ Esta es una imagen docker preparada con la instalacion de Asterisk 18 en ubuntu 
 
 <pre><code class="language-console">$ docker exec -it PBX /usr/sbin/asterisk -r</code></pre>
 
-# Descargar archivos de configuaricion  y sonidos de asterisk:
+# Url imagen asterisk:
 
-<a href="https://github.com/devnsm/asterisk_data.git" target="_blank">https://github.com/devnsm/asterisk_data.git</a>
+<a href="https://hub.docker.com/r/nsmdeveloper/nasterisk" target="_blank">https://hub.docker.com/r/nsmdeveloper/nasterisk</a>
 
 
 
